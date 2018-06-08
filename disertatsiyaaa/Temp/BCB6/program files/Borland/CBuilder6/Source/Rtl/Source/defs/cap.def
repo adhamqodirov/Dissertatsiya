@@ -1,0 +1,7 @@
+LIBRARY Cap
+EXPORTS
+
+    DumpCAP        @5
+    StartCAP        @3
+    StopCAP        @4
+    __penter        = _penter        @2

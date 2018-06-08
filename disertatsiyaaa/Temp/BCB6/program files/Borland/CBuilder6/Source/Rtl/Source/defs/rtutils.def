@@ -1,0 +1,59 @@
+LIBRARY Rtutils
+EXPORTS
+
+    CreateWaitEvent
+    CreateWaitEventBinding
+    CreateWaitTimer
+    DeRegisterWaitEventBinding
+    DeRegisterWaitEventBindingSelf
+    DeRegisterWaitEventsTimers
+    DeRegisterWaitEventsTimersSelf
+    DebugPrintWaitWorkerThreads
+    LogErrorA
+    LogErrorW
+    LogEventA
+    LogEventW
+    MprSetupProtocolEnum
+    MprSetupProtocolFree
+    QueueWorkItem
+    RegisterWaitEventBinding
+    RegisterWaitEventsTimers
+    RouterAssert
+    RouterGetErrorStringA
+    RouterGetErrorStringW
+    RouterLogDeregisterA
+    RouterLogDeregisterW
+    RouterLogEventA
+    RouterLogEventDataA
+    RouterLogEventDataW
+    _RouterLogEventExA        = RouterLogEventExA
+    _RouterLogEventExW        = RouterLogEventExW
+    RouterLogEventStringA
+    RouterLogEventStringW
+    RouterLogEventValistExA
+    RouterLogEventValistExW
+    RouterLogEventW
+    RouterLogRegisterA
+    RouterLogRegisterW
+    SetIoCompletionProc
+    TraceDeregisterA
+    TraceDeregisterExA
+    TraceDeregisterExW
+    TraceDeregisterW
+    TraceDumpExA
+    TraceDumpExW
+    TraceGetConsoleA
+    TraceGetConsoleW
+    _TracePrintfA        = TracePrintfA
+    _TracePrintfExA        = TracePrintfExA
+    _TracePrintfExW        = TracePrintfExW
+    _TracePrintfW        = TracePrintfW
+    TracePutsExA
+    TracePutsExW
+    TraceRegisterExA
+    TraceRegisterExW
+    TraceVprintfExA
+    TraceVprintfExW
+    UpdateWaitTimer
+    WTFreeEvent
+    WTFreeTimer

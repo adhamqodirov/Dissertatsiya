@@ -1,0 +1,20 @@
+LIBRARY NtQuery
+EXPORTS
+
+    BindIFilterFromStorage
+    BindIFilterFromStream
+    CIBuildQueryNode
+    CIBuildQueryTree
+    CICreateCommand
+    CIMakeICommand
+    CIRestrictionToFullTree
+    CIState
+    CITextToFullTree
+    CITextToFullTreeEx
+    CITextToSelectTree
+    CITextToSelectTreeEx
+    LoadIFilter
+    LocateCatalogs
+    LocateCatalogsA
+    LocateCatalogsW
+    SetCatalogState

@@ -1,0 +1,31 @@
+LIBRARY VdmDbg
+EXPORTS
+
+    VDMBreakThread
+    VDMDetectWOW
+    VDMEnumProcessWOW
+    VDMEnumTaskWOW
+    VDMEnumTaskWOWEx
+    VDMGetAddrExpression
+    VDMGetContext
+    VDMGetDbgFlags
+    VDMGetModuleSelector
+    VDMGetPointer
+    VDMGetSegmentInfo
+    VDMGetSegtablePointer
+    VDMGetSelectorModule
+    VDMGetSymbol
+    VDMGetThreadContext
+    VDMGetThreadSelectorEntry
+    VDMGlobalFirst
+    VDMGlobalNext
+    VDMIsModuleLoaded
+    VDMKillWOW
+    VDMModuleFirst
+    VDMModuleNext
+    VDMProcessException
+    VDMSetContext
+    VDMSetDbgFlags
+    VDMSetThreadContext
+    VDMStartTaskInWOW
+    VDMTerminateTaskWOW

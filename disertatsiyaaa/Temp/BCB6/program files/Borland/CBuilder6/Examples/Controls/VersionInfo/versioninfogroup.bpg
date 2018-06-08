@@ -1,0 +1,30 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$*.mak
+BPR2MAK = $(ROOT)\bin\bpr2mak.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = versioninfo60.bpl dclversioninfo60.bpl VersionInfoSample.exe TestProject.exe
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+VersionInfoSample.exe: VersionInfoSample.bpr
+  $(BPR2MAK)
+  $(MAKE)
+
+TestProject.exe: TestProject.bpr
+  $(BPR2MAK)
+  $(MAKE)
+
+dclversioninfo60.bpl: dclversioninfo.bpk
+  $(BPR2MAK)
+  $(MAKE)
+
+versioninfo60.bpl: versioninfo.bpk
+  $(BPR2MAK)
+  $(MAKE)

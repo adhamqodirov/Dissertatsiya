@@ -1,0 +1,10 @@
+LIBRARY WinStrm
+EXPORTS
+
+    OpenStream
+    getmsg
+    poll
+    putmsg
+    s_ioctl
+    s_open
+    s_perror

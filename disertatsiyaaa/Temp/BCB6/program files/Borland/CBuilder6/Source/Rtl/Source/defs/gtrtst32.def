@@ -1,0 +1,35 @@
+LIBRARY GTRTST32
+EXPORTS
+
+    AbortRun                                 
+    _AddAutoTest                             = AddAutoTest
+    CElapsed                                 
+    CenterDialog                             
+    CreateTestList                           
+    _DeleteAutoTestList                      = DeleteAutoTestList
+    _DeleteAutoTestNode                      = DeleteAutoTestNode
+    DrawBitmap                               
+    FAbortCheck                              
+    _FindAutoTestNode                        = FindAutoTestNode
+    FindFileDir                              
+    GetAutoTests                             
+    GetIniNameUsage                          
+    GetLogFile                               
+    GetRCString                              
+    GetSetLastRunInfo                        
+    GetTestCases                             
+    GetTestGroups                            
+    IsChicago                                
+    _LoadAutoTestDLL                         = LoadAutoTestDLL
+    ManageGroups                             
+    ManageSources                            
+    ManageTests                              
+    RefreshInstalledTestList                 
+    ResetForRunList                          
+    RunAutoTest                              
+    SetGatorIniPath                          
+    SetupFileInfo                            
+    _UnLoadAutoTestDLL                       = UnLoadAutoTestDLL
+    VerifyTestCaseCount                      
+    _szLogPrintf                             = szLogPrintf
+    _szMessageBox                            = szMessageBox

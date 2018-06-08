@@ -1,0 +1,12 @@
+USEUNIT(".\Globals.cpp");
+USEUNIT(".\Mainfrm.cpp");
+USEUNIT(".\Oldbadoc.cpp");
+USEUNIT(".\Oldbars.cpp");
+USEUNIT(".\Oldbavw.cpp");
+USEUNIT(".\Statbar.cpp");
+USEUNIT(".\Stdafx.cpp");
+USEUNIT(".\Toolbar.cpp");
+USERC(".\oldbars.rc");
+USEFILE("vctobpr.log");
+
+#define WinMain

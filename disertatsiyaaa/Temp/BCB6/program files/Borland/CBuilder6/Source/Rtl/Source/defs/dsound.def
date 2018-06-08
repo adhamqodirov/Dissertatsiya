@@ -1,0 +1,9 @@
+LIBRARY DSOUND
+EXPORTS
+
+    DirectSoundCaptureCreate                 
+    DirectSoundCaptureEnumerateA             
+    DirectSoundCaptureEnumerateW             
+    DirectSoundCreate                        
+    DirectSoundEnumerateA                    
+    DirectSoundEnumerateW                    

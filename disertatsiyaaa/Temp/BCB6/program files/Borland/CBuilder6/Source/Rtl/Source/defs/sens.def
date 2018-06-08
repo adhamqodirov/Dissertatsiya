@@ -1,0 +1,6 @@
+LIBRARY Sens
+EXPORTS
+
+    SensNotifyNetconEvent
+    SensNotifyRasEvent
+    SensNotifyWinlogonEvent

@@ -1,0 +1,5 @@
+LIBRARY ShFolder
+EXPORTS
+
+    SHGetFolderPathA
+    SHGetFolderPathW

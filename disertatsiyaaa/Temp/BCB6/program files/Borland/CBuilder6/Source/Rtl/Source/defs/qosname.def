@@ -1,0 +1,6 @@
+LIBRARY QosName
+EXPORTS
+
+    WPUGetQOSTemplate
+    WSCInstallQOSTemplate
+    WSCRemoveQOSTemplate

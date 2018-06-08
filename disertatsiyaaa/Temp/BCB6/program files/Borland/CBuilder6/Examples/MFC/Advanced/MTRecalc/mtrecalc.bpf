@@ -1,0 +1,12 @@
+USEUNIT(".\Calcthrd.cpp");
+USEUNIT(".\Mainfrm.cpp");
+USEUNIT(".\Mtrecalc.cpp");
+USEUNIT(".\Recalcvw.cpp");
+USEUNIT(".\Recaldoc.cpp");
+USEUNIT(".\Slowcalc.cpp");
+USEUNIT(".\Speeddlg.cpp");
+USEUNIT(".\Stdafx.cpp");
+USERC(".\Mtrecalc.rc");
+USEFILE("vctobpr.log");
+
+#define WinMain

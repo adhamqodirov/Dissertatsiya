@@ -1,0 +1,19 @@
+C++Builder 6
+
+
+============================================================
+ADDITIONAL LICENSE TERMS
+FOR DEPLOYING MULTI-TIER PROGRAMS
+
+
+============================================================
+IMPORTANT
+Distributing applications
+generated with this field test version
+is prohibited.
+
+
+============================================================
+Copyright © 2001 Borland Software Corporation.
+All rights reserved.
+

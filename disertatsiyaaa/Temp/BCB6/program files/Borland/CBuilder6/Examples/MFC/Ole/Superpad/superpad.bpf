@@ -1,0 +1,16 @@
+USEUNIT(".\aboutbox.cpp");
+USEUNIT(".\ipframe.cpp");
+USEUNIT(".\linkitem.cpp");
+USEUNIT(".\mainfrm.cpp");
+USEUNIT(".\paddoc.cpp");
+USEUNIT(".\padframe.cpp");
+USEUNIT(".\paditem.cpp");
+USEUNIT(".\padview.cpp");
+USEUNIT(".\pageset.cpp");
+USEUNIT(".\stdafx.cpp");
+USEUNIT(".\superpad.cpp");
+USEUNIT(".\tabstop.cpp");
+USERC(".\superpad.rc");
+USEFILE("vctobpr.log");
+
+#define WinMain

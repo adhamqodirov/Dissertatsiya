@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="bcbaxserverxp60.bpl"/>
+    <OBJFILES value="bcbaxserverxp.obj Access_XP.obj Access_XP_srvr.obj ADODB_XP.obj 
+      ADODB_XP_srvr.obj Word_XP_srvr.obj DAO_XP.obj DAO_XP_srvr.obj Excel_XP.obj 
+      Excel_XP_srvr.obj FrontPageEditor_XP.obj FrontPageEditor_XP_srvr.obj 
+      FrontPage_XP.obj FrontPage_XP_srvr.obj MSComctlLib_XP.obj MSComctlLib_XP_srvr.obj 
+      MSDATASRC_XP.obj MSDATASRC_XP_srvr.obj Office_XP.obj Office_XP_srvr.obj 
+      Outlook_XP.obj Outlook_XP_srvr.obj OWC10_XP.obj OWC10_XP_srvr.obj 
+      PowerPoint_XP.obj PowerPoint_XP_srvr.obj VBIDE_XP.obj VBIDE_XP_srvr.obj 
+      Word_XP.obj"/>
+    <RESFILES value="bcbaxserverxp.res Access_XP_srvr.dcr ADODB_XP_srvr.dcr Word_XP_srvr.dcr 
+      DAO_XP_srvr.dcr Excel_XP_srvr.dcr MSComctlLib_XP_srvr.dcr 
+      FrontPage_XP_srvr.dcr FrontPageEditor_XP_srvr.dcr
+      MSDATASRC_XP_srvr.dcr Office_XP_srvr.dcr Outlook_XP_srvr.dcr 
+      OWC10_XP_srvr.dcr PowerPoint_XP_srvr.dcr VBIDE_XP_srvr.dcr"/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <SPARELIBS value="vcl.lib rtl.lib vcldb.lib dbrtl.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vcldb.bpi dbrtl.bpi"/>
+    <PATHRC value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="bcbaxserverxp.cpp"/>
+    <INCLUDEPATH value="$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="$(BCB)\lib;$(BCB)\lib\obj"/>
+    <WARNINGS value="-w-par"/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl60.csm -Vx -Ve -X- -r- -a8 -b- -k -vi- -c -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-GB&quot;bcbaxserverxp&quot; 
+      -D&quot;Borland C++Builder Office XP Components Sample Package&quot; -aa -Tpp -x -Gn 
+      -Gl -Gi"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0pkg32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="bcbaxserverxp.res" FORMNAME="" UNITNAME="bcbaxserverxp.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="bcbaxserverxp.cpp" FORMNAME="" UNITNAME="bcbaxserverxp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rtl.bpi" FORMNAME="" UNITNAME="rtl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Access_XP.cpp" FORMNAME="" UNITNAME="Access_XP" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Access_XP_srvr.cpp" FORMNAME="" UNITNAME="Access_XP_srvr" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Access_XP_srvr.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ADODB_XP.cpp" FORMNAME="" UNITNAME="ADODB_XP" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ADODB_XP_srvr.cpp" FORMNAME="" UNITNAME="ADODB_XP_srvr" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ADODB_XP_srvr.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vcl.bpi" FORMNAME="" UNITNAME="vcl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Word_XP_srvr.cpp" FORMNAME="" UNITNAME="Word_XP_srvr" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Word_XP_srvr.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DAO_XP.cpp" FORMNAME="" UNITNAME="DAO_XP" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DAO_XP_srvr.cpp" FORMNAME="" UNITNAME="DAO_XP_srvr" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DAO_XP_srvr.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Excel_XP.cpp" FORMNAME="" UNITNAME="Excel_XP" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Excel_XP_srvr.cpp" FORMNAME="" UNITNAME="Excel_XP_srvr" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Excel_XP_srvr.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MSComctlLib_XP.cpp" FORMNAME="" UNITNAME="MSComctlLib_XP" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MSComctlLib_XP_srvr.cpp" FORMNAME="" UNITNAME="MSComctlLib_XP_srvr" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MSComctlLib_XP_srvr.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MSDATASRC_XP.cpp" FORMNAME="" UNITNAME="MSDATASRC_XP" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MSDATASRC_XP_srvr.cpp" FORMNAME="" UNITNAME="MSDATASRC_XP_srvr" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MSDATASRC_XP_srvr.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Office_XP.cpp" FORMNAME="" UNITNAME="Office_XP" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Office_XP_srvr.cpp" FORMNAME="" UNITNAME="Office_XP_srvr" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Office_XP_srvr.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Outlook_XP.cpp" FORMNAME="" UNITNAME="Outlook_XP" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Outlook_XP_srvr.cpp" FORMNAME="" UNITNAME="Outlook_XP_srvr" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Outlook_XP_srvr.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="OWC10_XP.cpp" FORMNAME="" UNITNAME="OWC10_XP" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="OWC10_XP_srvr.cpp" FORMNAME="" UNITNAME="OWC10_XP_srvr" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="OWC10_XP_srvr.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PowerPoint_XP.cpp" FORMNAME="" UNITNAME="PowerPoint_XP" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PowerPoint_XP_srvr.cpp" FORMNAME="" UNITNAME="PowerPoint_XP_srvr" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PowerPoint_XP_srvr.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="VBIDE_XP.cpp" FORMNAME="" UNITNAME="VBIDE_XP" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="VBIDE_XP_srvr.cpp" FORMNAME="" UNITNAME="VBIDE_XP_srvr" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="VBIDE_XP_srvr.dcr" FORMNAME="" UNITNAME="" CONTAINERID="DcrTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Word_XP.cpp" FORMNAME="" UNITNAME="Word_XP" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FrontPage_XP.cpp" FORMNAME="" UNITNAME="FrontPage_XP" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FrontPage_XP_srvr.cpp" FORMNAME="" UNITNAME="FrontPage_XP_srvr" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FrontPageEditor_XP.cpp" FORMNAME="" UNITNAME="FrontPageEditor_XP" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FrontPageEditor_XP_srvr.cpp" FORMNAME="" UNITNAME="FrontPageEditor_XP_srvr" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vcldb.bpi" FORMNAME="" UNITNAME="vcldb" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dbrtl.bpi" FORMNAME="" UNITNAME="dbrtl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+MajorVer=6
+Locale=1033
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=Borland Software Corporation
+FileDescription=Borland C++Builder Office XP Sample Components
+FileVersion=6.0.0.0
+LegalCopyright=Borland Software Corporation 2002
+ProductName=Borland C++Builder
+ProductVersion=6.0.0.0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+
+[Linker]
+LibPrefix=
+LibSuffix=60
+LibVersion=
+  </IDEOPTIONS>
+</PROJECT>

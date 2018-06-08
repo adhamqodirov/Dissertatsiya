@@ -1,0 +1,5 @@
+LIBRARY Icmui
+EXPORTS
+
+    SetupColorMatchingA
+    SetupColorMatchingW

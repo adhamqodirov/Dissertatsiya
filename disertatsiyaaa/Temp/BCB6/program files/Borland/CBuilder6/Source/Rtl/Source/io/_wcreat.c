@@ -1,0 +1,21 @@
+/*---------------------------------------------------------------------------
+ * filename - _wcreat.c
+ *
+ * function(s)
+ *        _wrtl_creat - creates a new file or rewrites an existing one.
+ *--------------------------------------------------------------------------*/
+
+/*
+ *      C/C++ Run Time Library - Version 11.0
+ *
+ *      Copyright (c) 1996, 2002 by Borland Software Corporation
+ *      All Rights Reserved.
+ *
+ */
+
+/* $Revision: 9.4.2.1 $        */
+
+#define _UNICODE
+#include "_creat.c"
+
+

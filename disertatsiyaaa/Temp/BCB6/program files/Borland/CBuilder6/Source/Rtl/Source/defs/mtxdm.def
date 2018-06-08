@@ -1,0 +1,5 @@
+LIBRARY MTXDM
+EXPORTS
+
+    _GetDispenserManager                     = GetDispenserManager
+    _GetDispenserManagerDriver               = GetDispenserManagerDriver

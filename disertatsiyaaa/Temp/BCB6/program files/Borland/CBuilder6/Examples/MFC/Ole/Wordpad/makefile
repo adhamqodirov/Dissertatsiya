@@ -1,0 +1,29 @@
+# This is a part of the Microsoft Foundation Classes C++ library.
+# Copyright (C) 1992-1995 Microsoft Corporation
+# All rights reserved.
+#
+# This source code is only intended as a supplement to the
+# Microsoft Foundation Classes Reference and related
+# electronic documentation provided with the library.
+# See these sources for detailed information regarding the
+# Microsoft Foundation Classes product.
+
+PROJ=WORDPAD
+OBJS=chicdial.obj   colorlis.obj   datedial.obj   docopt.obj     filenewd.obj   \
+     listdlg.obj    pageset.obj    splash.obj     unitspag.obj   buttondi.obj   \
+     cntritem.obj   ddxm.obj       doctype.obj    key.obj        multconv.obj   \
+     options.obj    optionsh.obj   ruler.obj      srvritem.obj   strings.obj    \
+     formatba.obj   formatpa.obj   formatta.obj   ipframe.obj    mainfrm.obj    \
+     wordpad.obj    wordpdoc.obj   wordpvw.obj
+
+#!include <$(MAKEDIR)\..\include\mfc\mfcsamps.mak>
+!include <..\..\mfcrules.mak>
+
+default: integration
+	$(MAKE) -f $(PROJ).mak
+
+clean:
+	$(CLEAN_MFC)
+                                
+integration: $(PROJ).bpr $(PROJ).mak
+    $(NOP)

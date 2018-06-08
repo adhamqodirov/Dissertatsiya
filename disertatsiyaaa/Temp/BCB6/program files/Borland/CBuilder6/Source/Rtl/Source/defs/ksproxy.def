@@ -1,0 +1,9 @@
+LIBRARY KSProxy
+EXPORTS
+
+    KsGetMediaType
+    KsGetMediaTypeCount
+    KsGetMultiplePinFactoryItems
+    KsOpenDefaultDevice
+    KsResolveRequiredAttributes
+    KsSynchronousDeviceControl

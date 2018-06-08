@@ -1,0 +1,15 @@
+LIBRARY Version
+EXPORTS
+
+    GetFileVersionInfoA
+    GetFileVersionInfoSizeA
+    GetFileVersionInfoSizeW
+    GetFileVersionInfoW
+    VerFindFileA
+    VerFindFileW
+    VerInstallFileA
+    VerInstallFileW
+    VerQueryValueA
+    VerQueryValueIndexA
+    VerQueryValueIndexW
+    VerQueryValueW

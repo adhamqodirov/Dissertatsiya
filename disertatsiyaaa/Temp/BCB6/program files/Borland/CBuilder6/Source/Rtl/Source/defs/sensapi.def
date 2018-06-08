@@ -1,0 +1,6 @@
+LIBRARY SensAPI
+EXPORTS
+
+    IsDestinationReachableA
+    IsDestinationReachableW
+    IsNetworkAlive

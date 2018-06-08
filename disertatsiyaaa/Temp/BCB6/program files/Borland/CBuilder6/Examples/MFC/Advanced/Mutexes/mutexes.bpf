@@ -1,0 +1,8 @@
+USEUNIT(".\MUTEXDLG.CPP");
+USEUNIT(".\MUTEXES.CPP");
+USEUNIT(".\STDAFX.CPP");
+USEUNIT(".\THREADS.CPP");
+USERC(".\mutexes.rc");
+USEFILE("vctobpr.log");
+
+#define WinMain

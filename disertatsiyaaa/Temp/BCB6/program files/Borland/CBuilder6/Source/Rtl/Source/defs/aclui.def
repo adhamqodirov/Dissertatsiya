@@ -1,0 +1,6 @@
+LIBRARY AclUI
+EXPORTS
+
+    CreateSecurityPage        @1
+    EditSecurity        @2
+    _IID_ISecurityInformation        = IID_ISecurityInformation        @16

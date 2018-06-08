@@ -1,0 +1,8 @@
+USEUNIT(".\btnctl.cpp");
+USEUNIT(".\btnppg.cpp");
+USEUNIT(".\button.cpp");
+USEUNIT(".\stdafx.cpp");
+USERC(".\button.rc");
+USEFILE("vctobpr.log");
+
+#define WinMain

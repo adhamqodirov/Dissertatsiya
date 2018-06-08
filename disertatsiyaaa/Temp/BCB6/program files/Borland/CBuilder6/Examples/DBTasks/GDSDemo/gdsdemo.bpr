@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="gdsdemo.exe"/>
+    <OBJFILES value="GDSDEMO.obj gdsstd.obj gdsdata.obj gridform.obj RecForm.obj"/>
+    <RESFILES value="gdsdemo.res"/>
+    <IDLFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="rtl.lib vcl.lib dbrtl.lib vcldb.lib"/>
+    <PACKAGES value="bdertl.bpi vcldb.bpi dbrtl.bpi vcl.bpi rtl.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="GDSDEMO.cpp"/>
+    <INCLUDEPATH value=";;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value=";;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par -w-8027 -w-8026"/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-src_suffixcpp -I$(BCB)\include -I$(BCB)\include\vcl"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c -tW"/>
+    <PFLAGS value="-$YD -v -JPHNV -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w0 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -v"/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="GDSDEMO.cpp" FORMNAME="" UNITNAME="GDSDEMO" CONTAINERID="CCompiler" DESIGNCLASS=""/>
+      <FILE FILENAME="readme.txt" FORMNAME="" UNITNAME="readme" CONTAINERID="" DESIGNCLASS=""/>
+      <FILE FILENAME="gdsstd.cpp" FORMNAME="GDSStdForm" UNITNAME="Gdsstd" CONTAINERID="CCompiler" DESIGNCLASS=""/>
+      <FILE FILENAME="gdsdata.cpp" FORMNAME="StdDataForm" UNITNAME="GdsData" CONTAINERID="CCompiler" DESIGNCLASS=""/>
+      <FILE FILENAME="gridform.cpp" FORMNAME="GridViewForm" UNITNAME="GridForm" CONTAINERID="CCompiler" DESIGNCLASS=""/>
+      <FILE FILENAME="RecForm.cpp" FORMNAME="RecViewForm" UNITNAME="RecForm" CONTAINERID="CCompiler" DESIGNCLASS=""/>
+      <FILE FILENAME="gdsdemo.res" FORMNAME="" UNITNAME="gdsdemo" CONTAINERID="ResTool" DESIGNCLASS=""/>
+  </FILELIST>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1033
+CodePage=1252
+
+[HistoryLists\hlIncludePath]
+Count=1
+Item0=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=1
+Item0=$(BCB)\lib\obj;$(BCB)\lib
+
+[Debugging]
+DebugSourceDirs=
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=1
+LinkCGLIB=0
+  </IDEOPTIONS>
+</PROJECT>

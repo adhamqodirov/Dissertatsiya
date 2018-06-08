@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="CustomersServer.exe"/>
+    <OBJFILES value="customersserver.obj CustomersImplU.obj Any2Variant.obj Customers_c.obj 
+      Customers_s.obj"/>
+    <RESFILES value=""/>
+    <IDLFILES value="Customers.idl"/>
+    <IDLGENFILES value="Customers_s.cpp Customers_c.cpp"/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) CustomersImplU.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="rtl.lib vcl.lib dsnap.lib dbrtl.lib vcldb.lib bdertl.lib"/>
+    <PACKAGES value="dsnap.bpi dbrtl.bpi vcldb.bpi bdertl.bpi rtl.bpi vcl.bpi vclx.bpi vcldbx.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="WIN32;_USE_OLD_RW_STL"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;_VIS_NOLIB;USEPACKAGES"/>
+    <MAINSOURCE value="customersserver.cpp"/>
+    <INCLUDEPATH value="$(BCB)\include;$(BCB)\include\vcl;$(VBROKERDIR)\include"/>
+    <LIBPATH value="$(BCB)\lib;$(BCB)\lib\obj;$(VBROKERDIR)\lib"/>
+    <WARNINGS value="-w-par -w-8027 -w-8026"/>
+    <WARNOPTSTR value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-src_suffix cpp -I$(BCB)\include -I$(BCB)\include\vcl 
+      -I$(VBROKERDIR)\include -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y 
+      -v -vi- -c -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -ap -Tpe -x -Gn -v"/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0x32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="orb_br.lib vport_br.lib $(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="CustomersServer.cpp" FORMNAME="" UNITNAME="customersserver" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Customers.idl" FORMNAME="" UNITNAME="Customers" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CustomersImplU.cpp" FORMNAME="CustomersImpl" UNITNAME="CustomersImplU" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND="" IDLFILESNAMES="Customers.idl"/>
+      <FILE FILENAME="Any2Variant.cpp" FORMNAME="" UNITNAME="Any2Variant" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Customers_c.cpp" FORMNAME="" UNITNAME="Customers_c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Customers_s.cpp" FORMNAME="" UNITNAME="Customers_s" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+
+  <FILES>
+    <FILE type="depend" value="Customers.idl" translator="idl2cpp">
+      <IDLROOTDIR value=" -root_dir .\ "/>
+      <DEPENDENT value="Customers_s.cpp"/>
+      <DEPENDENT value="Customers_c.cpp"/>
+    </FILE>
+  </FILES>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1033
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+
+[HistoryLists\hlLibraryPath]
+
+[HistoryLists\hlDebugSourcePath]
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

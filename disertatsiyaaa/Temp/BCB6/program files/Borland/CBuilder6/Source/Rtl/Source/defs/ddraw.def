@@ -1,0 +1,24 @@
+LIBRARY DDRAW
+EXPORTS
+
+    DDHAL32_VidMemAlloc                      
+    DDHAL32_VidMemFree                       
+    DDInternalLock                           
+    DDInternalUnlock                         
+    DSoundHelp                               
+    DirectDrawCreate                         
+    DirectDrawCreateClipper                  
+    DirectDrawEnumerateA                     
+    DirectDrawEnumerateW                     
+    _GetNextMipMap                           = GetNextMipMap
+    GetSurfaceFromDC                         
+    HeapVidMemAllocAligned                   
+    _InternalLock                            = InternalLock
+    _InternalUnlock                          = InternalUnlock
+    LateAllocateSurfaceMem                   
+    VidMemAlloc                              
+    VidMemAmountFree                         
+    VidMemFini                               
+    VidMemFree                               
+    VidMemInit                               
+    VidMemLargestFree                        

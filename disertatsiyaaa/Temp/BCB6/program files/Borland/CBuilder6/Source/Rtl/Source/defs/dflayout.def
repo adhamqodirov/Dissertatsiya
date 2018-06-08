@@ -1,0 +1,4 @@
+LIBRARY DfLayout
+EXPORTS
+
+    StgOpenLayoutDocfile

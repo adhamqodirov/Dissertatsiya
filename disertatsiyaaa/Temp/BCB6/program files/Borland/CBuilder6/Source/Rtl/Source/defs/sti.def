@@ -1,0 +1,8 @@
+LIBRARY Sti
+EXPORTS
+
+    MigrateRegisteredSTIAppsForWIAEvents
+    RegSTIforWia
+    StiCreateInstance
+    StiCreateInstanceA
+    StiCreateInstanceW

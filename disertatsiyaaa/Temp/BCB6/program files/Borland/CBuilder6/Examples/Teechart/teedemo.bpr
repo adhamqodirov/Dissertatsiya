@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="TeeDemo.exe"/>
+    <OBJFILES value="TeeDemo.obj TeeMain.obj TeeBasic.obj Basic.obj specs.obj Features.obj 
+      UColor.obj UAniZoom.obj UBitmap.obj UDraw.obj UClick.obj UMain.obj 
+      UOverbar.obj ULegend.obj UAxisLab.obj UScroll.obj UShapes.obj UScrollB.obj 
+      LastValu.obj UCrossH.obj UKBoar.obj UPrint.obj LogLab.obj UPages.obj 
+      UMetafil.obj"/>
+    <RESFILES value="TeeDemo.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) TeeMain.dfm TeeBasic.dfm Basic.dfm specs.dfm Features.dfm 
+      UColor.dfm UAniZoom.dfm UBitmap.dfm UDraw.dfm UClick.dfm UMain.dfm 
+      UOverbar.dfm ULegend.dfm UAxisLab.dfm UScroll.dfm UShapes.dfm UScrollB.dfm 
+      LastValu.dfm UCrossH.dfm UKBoar.dfm UPrint.dfm LogLab.dfm UPages.dfm 
+      UMetafil.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="tee.lib bcbsmp.lib vclx.lib teeui.lib teedb.lib rtl.lib vcl.lib"/>
+    <PACKAGES value="vclx.bpi rtl.bpi vcl.bpi tee.bpi teedb.bpi teeui.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="TeeDemo.cpp"/>
+    <INCLUDEPATH value="$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-src_suffix cpp -I$(BCB)\include -I$(BCB)\include\vcl"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -xp -Tkh30000 -X- -r- 
+      -a8 -b- -k -y -v -vi- -c -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -H -W -v -JPHN -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -w -v"/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="TeeDemo.cpp" FORMNAME="" UNITNAME="TeeDemo" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TeeDemo.res" FORMNAME="" UNITNAME="TeeDemo" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TeeMain.cpp" FORMNAME="TeeMainForm" UNITNAME="TeeMain" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TeeBasic.cpp" FORMNAME="DemoForm" UNITNAME="TeeBasic" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Basic.cpp" FORMNAME="BasicForm" UNITNAME="Basic" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="specs.cpp" FORMNAME="ChartSpecs" UNITNAME="specs" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Features.cpp" FORMNAME="FeaturesForm" UNITNAME="Features" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UColor.cpp" FORMNAME="ColoredForm" UNITNAME="UColor" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UAniZoom.cpp" FORMNAME="FormAnimatedZoom" UNITNAME="UAniZoom" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UBitmap.cpp" FORMNAME="BitmapForm" UNITNAME="UBitmap" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UDraw.cpp" FORMNAME="DrawForm" UNITNAME="UDraw" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UClick.cpp" FORMNAME="ClickingForm" UNITNAME="UClick" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UMain.cpp" FORMNAME="MiniForm" UNITNAME="UMain" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UOverbar.cpp" FORMNAME="OverBarForm" UNITNAME="UOverbar" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ULegend.cpp" FORMNAME="LegendForm" UNITNAME="ULegend" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UAxisLab.cpp" FORMNAME="AxisLabelsForm" UNITNAME="UAxisLab" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UScroll.cpp" FORMNAME="ScrollForm" UNITNAME="UScroll" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UShapes.cpp" FORMNAME="ShapesForm" UNITNAME="UShapes" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UScrollB.cpp" FORMNAME="ScrollBarForm" UNITNAME="UScrollB" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="LastValu.cpp" FORMNAME="DigitalForm" UNITNAME="LastValu" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UCrossH.cpp" FORMNAME="CrossHairForm" UNITNAME="UCrossH" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UKBoar.cpp" FORMNAME="KeyboardForm" UNITNAME="UKBoar" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UPrint.cpp" FORMNAME="PrintForm" UNITNAME="UPrint" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="LogLab.cpp" FORMNAME="CustomLabelsForm" UNITNAME="LogLab" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UPages.cpp" FORMNAME="PagesForm" UNITNAME="UPages" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UMetafil.cpp" FORMNAME="MetafileForm" UNITNAME="UMetafil" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1033
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+
+[HistoryLists\hlLibraryPath]
+
+[HistoryLists\hlDebugSourcePath]
+
+[HistoryLists\hlConditionals]
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

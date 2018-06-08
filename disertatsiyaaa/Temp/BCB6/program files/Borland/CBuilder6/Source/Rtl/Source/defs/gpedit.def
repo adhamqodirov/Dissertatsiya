@@ -1,0 +1,9 @@
+LIBRARY GPEdit
+EXPORTS
+
+    BrowseForGPO
+    CreateGPOLink
+    DeleteAllGPOLinks
+    DeleteGPOLink
+    ExportRSoPData
+    ImportRSoPData

@@ -1,0 +1,7 @@
+LIBRARY DSProp
+EXPORTS
+
+    ADsPropCheckIfWritable
+    ADsPropCreateNotifyObj
+    ADsPropGetInitInfo
+    ADsPropSetHwnd

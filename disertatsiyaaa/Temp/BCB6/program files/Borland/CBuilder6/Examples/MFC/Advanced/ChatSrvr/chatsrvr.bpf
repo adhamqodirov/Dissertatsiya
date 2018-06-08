@@ -1,0 +1,13 @@
+USEUNIT(".\Chatsrvr.cpp");
+USEUNIT(".\Clntsock.cpp");
+USEUNIT(".\Dialogs.cpp");
+USEUNIT(".\Lstnsock.cpp");
+USEUNIT(".\Mainfrm.cpp");
+USEUNIT(".\Msg.cpp");
+USEUNIT(".\Srvrdoc.cpp");
+USEUNIT(".\Srvrvw.cpp");
+USEUNIT(".\Stdafx.cpp");
+USERC(".\Chatsrvr.rc");
+USEFILE("vctobpr.log");
+
+#define WinMain

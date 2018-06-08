@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/etOrigin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="turgan manzilingiz..." />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content" android:orientation="horizontal"
+        android:layout_width="fill_parent">
+
+        <EditText
+            android:id="@+id/etOrigin"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:hint="bormoqchi bo'lgan manzilingiz..." />
+
+        <ImageView
+            android:id="@+id/btnFindPath"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_send_grey600_48dp"></ImageView>
+
+    </LinearLayout>
+
+</LinearLayout>

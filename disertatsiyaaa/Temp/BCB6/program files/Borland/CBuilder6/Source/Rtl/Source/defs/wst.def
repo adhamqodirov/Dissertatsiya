@@ -1,0 +1,4 @@
+LIBRARY Wst
+EXPORTS
+
+    __penter        = _penter

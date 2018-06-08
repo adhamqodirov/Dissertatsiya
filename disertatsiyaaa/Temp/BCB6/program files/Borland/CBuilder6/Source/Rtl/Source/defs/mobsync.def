@@ -1,0 +1,6 @@
+LIBRARY MobSync
+EXPORTS
+
+    RunDllRegister        @6
+    SyncMgrResolveConflictA
+    SyncMgrResolveConflictW

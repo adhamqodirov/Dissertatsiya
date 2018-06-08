@@ -1,0 +1,24 @@
+LIBRARY Traffic
+EXPORTS
+
+    TcAddClassMap
+    TcAddFilter
+    TcAddFlow
+    TcCloseInterface
+    TcDeleteFilter
+    TcDeleteFlow
+    TcDeregisterClient
+    TcEnumerateFlows
+    TcEnumerateInterfaces
+    TcGetFlowNameA
+    TcGetFlowNameW
+    TcModifyFlow
+    TcOpenInterfaceA
+    TcOpenInterfaceW
+    TcQueryFlowA
+    TcQueryFlowW
+    TcQueryInterface
+    TcRegisterClient
+    TcSetFlowA
+    TcSetFlowW
+    TcSetInterface

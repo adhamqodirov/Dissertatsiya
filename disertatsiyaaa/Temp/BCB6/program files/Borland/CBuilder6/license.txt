@@ -1,0 +1,149 @@
+
+
+BORLAND EXPERIMENTAL TEST SOFTWARE
+License Statement
+Borland Software Corporation
+
+YOUR USE OF THE EXPERIMENTAL SOFTWARE DISTRIBUTED WITH
+THIS LICENSE IS SUBJECT TO ALL OF THE TERMS AND
+CONDITIONS OF THIS LICENSE STATEMENT.  IF YOU DO NOT
+AGREE TO ALL OF THE TERMS AND CONDITIONS OF THIS
+STATEMENT, DO NOT USE THE SOFTWARE.
+
+IMPORTANT - READ CAREFULLY
+This License Statement constitutes a legal agreement
+between you (either as an individual or a single entity)
+and Borland Software Corporation ("Borland")
+for the experimental test software product ("Software")
+with which this License Statement is distributed,
+including any software, media, and accompanying on-line
+or printed documentation.
+If you are accepting this License Statement on behalf
+of a corporation, partnership or other legal entity,
+the use of the terms "you" and "your" in this
+License Statement will refer to such entity.
+
+TERMS AND CONDITIONS
+
+1. This Software is protected by copyright law and
+international copyright treaty. Therefore, you must
+treat this Software just like a book, except that you
+may copy it onto a computer to be used and you may
+make archive copies of the Software for the sole
+purpose of backing up our Software and protecting your
+investment from loss. This Software is experimental,
+which means it is still under development and may
+contain bugs. Accordingly, your use of this Software is
+limited to evaluation and trial use purposes only.
+
+2. FURTHER, THIS SOFTWARE MAY CONTAIN A TIME-OUT
+FEATURE THAT DISABLES ITS OPERATION AFTER A CERTAIN
+PERIOD OF TIME. IN THE EVENT THAT THE SOFTWARE INCLUDES
+A TIME-OUT FEATURE, YOU SHOULD REFER TO THE DOCUMENTATION
+PROVIDED WITH THE SOFTWARE, INCLUDING ANY ON-LINE
+DOCUMENTATION, FOR DETERMINING THE TIME PERIOD AND/OR
+SPECIFIC DATE UPON WHICH THE SOFTWARE WILL EXPIRE.
+Though Borland does not offer technical support for
+the Software, we welcome your feedback.
+
+3. If the Software is a Borland development tool, you can
+write and compile applications for your own personal use
+on the computer on which you have installed the Software,
+but you do not have a right to distribute or otherwise share
+those applications or any files of the Software which may be
+required to support those applications. APPLICATIONS THAT
+YOU CREATE MAY REQUIRE THE SOFTWARE IN ORDER TO RUN. UPON
+EXPIRATION OF THE EVALUATION PERIOD, THOSE APPLICATIONS MAY
+NO LONGER RUN. You should therefore take precautions to
+avoid any loss of data that might result.
+
+4. BORLAND MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY
+OF THIS SOFTWARE OR ABOUT ANY CONTENT OR INFORMATION MADE
+ACCESSIBLE BY THE SOFTWARE, FOR ANY PURPOSE. THE SOFTWARE
+IS PROVIDED "AS IS" WITHOUT EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE OR NONINFRINGEMENT. THIS SOFTWARE IS
+PROVIDED GRATUITOUSLY AND, ACCORDINGLY, BORLAND.COM SHALL
+NOT BE LIABLE UNDER ANY THEORY OR ANY DAMAGES SUFFERED BY
+YOU OR ANY USER OF THE SOFTWARE. BORLAND.COM WILL NOT
+SUPPORT THIS SOFTWARE AND IS UNDER NO OBLIGATION TO ISSUE
+UPDATES TO THIS SOFTWARE.
+
+5. While Borland intends to distribute a commercial
+release of the Software, Borland reserves the right at
+any time not to release a commercial release of the Software
+or, if released, to alter prices, features, specifications,
+capabilities, functions, licensing terms, release dates,
+general availability or other characteristics of the
+commercial release.
+
+6. Title, ownership rights, and intellectual property rights
+in and to the Software shall remain in Borland and/or its
+suppliers. You agree to abide by the copyright law and all
+other applicable laws of the United States including, but not
+limited to, export control laws. You acknowledge that the
+Software in source code form remains a confidential trade
+secret of Borland and/or its suppliers and therefore you
+agree not to modify the Software or attempt to decipher,
+decompile, disassemble, or reverse engineer the Software,
+except to the extent applicable laws specifically prohibit
+such restriction.
+
+7. Within thirty (30) days following Borland's release of a
+commercial version of the Software, you agree to destroy or
+erase the Software. This statement shall be governed by and
+construed in accordance with the laws of the State of
+California and, as to matters affecting copyrights, trademarks
+and patents, by U.S. federal law. This statement sets forth the
+entire agreement between you and Borland.
+
+8. Use, duplication or disclosure by the Government is subject
+to restrictions set forth in subparagraphs (a) through (d)
+of the Commercial Computer-Restricted Rights clause at
+FAR 52.227-19 when applicable, or in subparagraph (c) (1)
+(ii) of the Rights in Technical Data and Computer Software
+clause at DFARS 252.227-7013, and in similar clauses in the
+NASA AR Supplement. Contractor/ manufacturer is Borland
+Corporation, 100 Enterprise Way, Scotts Valley, CA 95066.
+
+9. You may not download or otherwise export or reexport the
+Software or any underlying information or technology except in
+full compliance with all United States and other applicable
+laws and regulations. In particular, but without limitation,
+none of the Software or underlying information or
+technology may be downloaded or otherwise exported or
+reexported (i) into (or to a national or resident of) Cuba,
+Haiti, Iraq, Libya, Yugoslavia, North Korea, Iran, or Syria or
+(ii) to anyone on the US Treasury Department's list of
+Specially Designated Nationals or the US Commerce Department's
+Table of Deny Orders. By downloading the Software, you are
+agreeing to the foregoing and you are representing and
+warranting that you are not located in, under control of,
+or a national or resident of any such country or on any such
+list.
+
+10. BORLAND OR ITS SUPPLIERS SHALL NOT BE LIABLE FOR
+(a) INCIDENTAL, CONSEQUENTIAL, SPECIAL OR INDIRECT DAMAGES
+OF ANY SORT, WHETHER ARISING IN TORT, CONTRACT OR OTHERWISE,
+EVEN IF BORLAND.COM HAS BEEN INFORMED OF THE POSSIBILITY OF
+SUCH DAMAGES, OR (b) FOR ANY CLAIM BY ANY OTHER PARTY. THIS
+LIMITATION OF LIABILITY SHALL NOT APPLY TO LIABILITY FOR
+DEATH OR PERSONAL INJURY TO THE EXTENT APPLICABLE LAW
+PROHIBITS SUCH LIMITATION. FURTHERMORE, SOME STATES DO
+NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR
+CONSEQUENTIAL DAMAGES, SO THIS LIMITATION AND EXCLUSION MAY
+NOT APPLY TO YOU.
+
+11. HIGH RISK ACTIVITIES. The Software is not fault-
+tolerant and is not designed, manufactured, or intended for
+use or resale as online control equipment in hazardous
+environments requiring fail-safe performance, such as in the
+operation of nuclear facilities, aircraft navigation or
+communication systems, air traffic control, direct life support
+machines, or weapons systems, in which the failure of the
+Software could lead directly to death, personal injury, or
+severe physical or environmental damage ("High Risk
+Activities"). Borland and its suppliers specifically disclaim
+any express or implied warranty of fitness for High Risk
+Activities.
+

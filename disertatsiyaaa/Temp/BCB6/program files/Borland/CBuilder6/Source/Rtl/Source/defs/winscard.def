@@ -1,0 +1,62 @@
+LIBRARY WinSCard
+EXPORTS
+
+    SCardAccessStartedEvent
+    SCardAddReaderToGroupA
+    SCardAddReaderToGroupW
+    SCardBeginTransaction
+    SCardCancel
+    SCardConnectA
+    SCardConnectW
+    SCardControl
+    SCardDisconnect
+    SCardEndTransaction
+    SCardEstablishContext
+    SCardForgetCardTypeA
+    SCardForgetCardTypeW
+    SCardForgetReaderA
+    SCardForgetReaderGroupA
+    SCardForgetReaderGroupW
+    SCardForgetReaderW
+    SCardFreeMemory
+    SCardGetAttrib
+    SCardGetCardTypeProviderNameA
+    SCardGetCardTypeProviderNameW
+    SCardGetProviderIdA
+    SCardGetProviderIdW
+    SCardGetStatusChangeA
+    SCardGetStatusChangeW
+    SCardIntroduceCardTypeA
+    SCardIntroduceCardTypeW
+    SCardIntroduceReaderA
+    SCardIntroduceReaderGroupA
+    SCardIntroduceReaderGroupW
+    SCardIntroduceReaderW
+    SCardIsValidContext
+    SCardListCardsA
+    SCardListCardsW
+    SCardListInterfacesA
+    SCardListInterfacesW
+    SCardListReaderGroupsA
+    SCardListReaderGroupsW
+    SCardListReadersA
+    SCardListReadersW
+    SCardLocateCardsA
+    SCardLocateCardsByATRA
+    SCardLocateCardsByATRW
+    SCardLocateCardsW
+    SCardReconnect
+    SCardReleaseContext
+    SCardReleaseStartedEvent
+    SCardRemoveReaderFromGroupA
+    SCardRemoveReaderFromGroupW
+    SCardSetAttrib
+    SCardSetCardTypeProviderNameA
+    SCardSetCardTypeProviderNameW
+    SCardState
+    SCardStatusA
+    SCardStatusW
+    SCardTransmit
+    _g_rgSCardRawPci        = g_rgSCardRawPci
+    _g_rgSCardT0Pci        = g_rgSCardT0Pci
+    _g_rgSCardT1Pci        = g_rgSCardT1Pci

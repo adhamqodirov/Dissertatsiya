@@ -1,0 +1,4 @@
+LIBRARY FRAMEDYN
+EXPORTS
+
+    DoCmd                                    = _DoCmd@16

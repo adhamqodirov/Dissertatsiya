@@ -1,0 +1,8 @@
+LIBRARY DlcAPI
+EXPORTS
+
+    AcsLan
+    DlcCallDriver
+    GetAdapterNameFromNumber
+    GetAdapterNumberFromName
+    NtAcsLan

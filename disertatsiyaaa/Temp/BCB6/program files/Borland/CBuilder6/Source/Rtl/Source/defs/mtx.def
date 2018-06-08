@@ -1,0 +1,6 @@
+LIBRARY Mtx
+EXPORTS
+
+    _GetObjectContext        = GetObjectContext
+    MTSCreateActivity
+    _SafeRef        = SafeRef

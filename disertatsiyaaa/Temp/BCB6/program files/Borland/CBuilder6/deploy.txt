@@ -1,0 +1,20 @@
+C++Builder 6
+
+
+============================================================
+Deploying applications
+generated with this field test
+is prohibited.
+
+
+============================================================
+IMPORTANT
+Distributing applications
+generated with this field test version
+is prohibited.
+
+
+============================================================
+Copyright (c) 2002 Borland Software Corporation.
+All rights reserved.
+

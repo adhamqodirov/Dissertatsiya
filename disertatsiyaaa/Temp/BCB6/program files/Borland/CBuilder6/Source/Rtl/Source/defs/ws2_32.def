@@ -1,0 +1,116 @@
+LIBRARY WS2_32
+EXPORTS
+
+    socket        @23
+    shutdown        @22
+    setsockopt        @21
+    sendto        @20
+    send        @19
+    select        @18
+    recvfrom        @17
+    recv        @16
+    ntohs        @15
+    ntohl        @14
+    listen        @13
+    ioctlsocket        @10
+    inet_ntoa        @12
+    inet_addr        @11
+    htons        @9
+    htonl        @8
+    getsockopt        @7
+    getsockname        @6
+    getservbyport        @56
+    getservbyname        @55
+    getprotobynumber        @54
+    getprotobyname        @53
+    getpeername        @5
+    getnameinfo
+    gethostname        @57
+    gethostbyname        @52
+    gethostbyaddr        @51
+    getaddrinfo
+    freeaddrinfo
+    connect        @4
+    closesocket        @3
+    bind        @2
+    accept        @1
+    __WSAFDIsSet        @151
+    WSCWriteProviderOrder
+    WSCWriteNameSpaceOrder
+    WSCUpdateProvider
+    WSCUnInstallNameSpace
+    WSCInstallProvider
+    WSCInstallNameSpace
+    WSCGetProviderPath
+    WSCEnumProtocols
+    WSCEnableNSProvider
+    WSCDeinstallProvider
+    WSAWaitForMultipleEvents
+    WSAUnhookBlockingHook        @110
+    WSAStringToAddressW
+    WSAStringToAddressA
+    WSAStartup        @115
+    WSASocketW
+    WSASocketA
+    WSASetServiceW
+    WSASetServiceA
+    WSASetLastError        @112
+    WSASetEvent
+    WSASetBlockingHook        @109
+    WSASendTo
+    WSASendDisconnect
+    WSASend
+    WSAResetEvent
+    WSARemoveServiceClass
+    WSARecvFrom
+    WSARecvDisconnect
+    WSARecv
+    WSAProviderConfigChange
+    WSANtohs
+    WSANtohl
+    WSANSPIoctl
+    WSALookupServiceNextW
+    WSALookupServiceNextA
+    WSALookupServiceEnd
+    WSALookupServiceBeginW
+    WSALookupServiceBeginA
+    WSAJoinLeaf
+    WSAIsBlocking        @114
+    WSAIoctl
+    WSAInstallServiceClassW
+    WSAInstallServiceClassA
+    WSAHtons
+    WSAHtonl
+    WSAGetServiceClassNameByClassIdW
+    WSAGetServiceClassNameByClassIdA
+    WSAGetServiceClassInfoW
+    WSAGetServiceClassInfoA
+    WSAGetQOSByName
+    WSAGetOverlappedResult
+    WSAGetLastError        @111
+    WSAEventSelect
+    WSAEnumProtocolsW
+    WSAEnumProtocolsA
+    WSAEnumNetworkEvents
+    WSAEnumNameSpaceProvidersW
+    WSAEnumNameSpaceProvidersA
+    WSADuplicateSocketW
+    WSADuplicateSocketA
+    WSACreateEvent
+    WSAConnect
+    WSACloseEvent
+    WSACleanup        @116
+    WSACancelBlockingCall        @113
+    WSACancelAsyncRequest        @108
+    WSAAsyncSelect        @101
+    WSAAsyncGetServByPort        @106
+    WSAAsyncGetServByName        @107
+    WSAAsyncGetProtoByNumber        @104
+    WSAAsyncGetProtoByName        @105
+    WSAAsyncGetHostByName        @103
+    WSAAsyncGetHostByAddr        @102
+    WSAAddressToStringW
+    WSAAddressToStringA
+    WSAAccept
+    WPUCompleteOverlappedRequest
+    WEP        @500
